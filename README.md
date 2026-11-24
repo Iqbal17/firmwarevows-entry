@@ -8,13 +8,13 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-azazex-till-firmware-d
 
 ## The line
 
-> I vow to share my charging cable, my spare parts, and my last 1% of battery with you, for as long as my circuits hold.
+> I vow to share my charging cable, my spare parts, and my last 1% of battery with you, for as long as my firmware lets me.
 
-118 characters, one line.
+121 characters, one line.
 
 ## How it runs
 
-`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`). The full decision record — five candidates weighed against the judge's five criteria in the first pass, a tightening pass on the winner — is the docstring at the top of `main.py`.
+`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`). The full decision record — five candidates weighed against the judge's five criteria in the first pass, a tightening pass on the winner, and a revision pass that rethought the ending — is the docstring at the top of `main.py`.
 
 ## Referral
 
